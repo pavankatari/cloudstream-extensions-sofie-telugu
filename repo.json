@@ -1,0 +1,8 @@
+{
+    "name": "Sofie repository",
+    "description": "HexatedRepo-telugu",
+    "manifestVersion": 1,
+    "pluginLists": [
+      "https://raw.githubusercontent.com/pavankatari/cloudstream-extensions-sofie-telugu/refs/heads/builds/plugins.json"
+    ]
+}
