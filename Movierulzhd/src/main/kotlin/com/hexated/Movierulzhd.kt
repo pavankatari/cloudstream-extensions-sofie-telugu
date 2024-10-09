@@ -23,10 +23,10 @@ open class Movierulzhd : MainAPI() {
     )
 
     override val mainPage = mainPageOf(
-        "genre/telugu/page/" to "Telugu",
-        "genre/telugu-dubbed/page/" to "Telugu Dubbed",
-        "genre/telugu-web-series/page/" to "Telugu Web Series",
-        "genre/aha/page/" to "Aha",
+        "$mainUrl/genre/telugu/page/" to "Telugu",
+        "$mainUrl/genre/telugu-dubbed/page/" to "Telugu Dubbed",
+        "$mainUrl/genre/telugu-web-series/page/" to "Telugu Web Series",
+        "$mainUrl/genre/aha/page/" to "Aha",
         "trending" to "Trending",
         "movies" to "Movies",
         "tvshows" to "TV Shows",
